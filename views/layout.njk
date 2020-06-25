@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    {% block head %}
+        <title>Marcos Vinícius</title>
+    {% endblock head %}
+
+    <link rel="stylesheet" href="/styles.css">
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon" />   ADD FAVICON -->
+</head>
+<body>
+    <header>
+        <div class="links">
+            <a href="/">Sobre</a>
+            <a href="/portifolio">Aulas</a>
+        </div>
+    </header>
+
+    {% block content %}{% endblock %}
+
+</body>
+
+</html>
